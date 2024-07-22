@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects#1</title>
+    <style>
+       body {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #inputText {
+            width: 30%;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 10px;
+            border: 2px solid red;
+            margin: 10px 20px;
+        }
+        #btn {
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 10px;
+            background-color: yellow;
+            transition: all 1s ease;            
+        }
+        #btn:hover {
+            background-color: yellowgreen;
+            color: red;
+        }
+         #listItems {
+            color: #333;
+            font-size: 18px;
+            list-style-type: none;
+            background-color: #fff;
+            padding: 0px 30px;
+            margin: 0px 20px;
+
+         }
+         li {
+            margin: 20px 0px;
+            background-color: aquamarine;
+            padding: 10px 20px;
+            border-radius: 10px;
+
+         }
+         button {
+            padding: 5px 10px;
+
+            background-color: red;
+            text-transform: uppercase;
+            color: #fff;
+            margin: 0px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+         }
+    </style>
+</head>
+<body>
+        <input type="text" placeholder="Enter value" id="inputText"> 
+        <button id="btn">Add node</button>
+        <ul id="listItems">
+            
+        </ul>
+
+        <script src="./index.js"></script>
+</body>
+</html>
